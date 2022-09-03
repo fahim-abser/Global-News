@@ -14,7 +14,7 @@ const displayCatagories = (news) => {
         const catagoryDiv = document.createElement('div');
         catagoryDiv.classList.add('p-4')
         catagoryDiv.innerHTML = `
-        <p id="${news.category_id}">${news.category_name} </p>
+        <p class="col-sm-12" id="${news.category_id}">${news.category_name} </p>
         `;
         catagoriesSection.appendChild(catagoryDiv);
         // console.log(news)
