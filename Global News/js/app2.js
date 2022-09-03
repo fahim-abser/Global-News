@@ -10,7 +10,7 @@ const loadNewsCatagoriess = () => {
 const displayCatagoriess = (news) => {
     console.log(news);
 
-    const catagoriesSection = document.getElementById('fuckfahim');
+    const catagoriesSection = document.getElementById('card-container');
     news.forEach(news => {
         // console.log(news);
 
