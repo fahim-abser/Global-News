@@ -5,7 +5,7 @@ const loadNewsCatagoriess = () => {
 };
 
 
-
+// news.details.length > 20 ? news.details.slice(0, 20) + '...' 
 
 const displayCatagoriess = (news) => {
     console.log(news);
@@ -25,7 +25,8 @@ const displayCatagoriess = (news) => {
                     <div class="col-lg-8 col-sm-12">
                         <div class="card-body">
                             <h5 class="card-title">${news.title}</h5>
-                            <p> ${news.details}</p>
+                            <p>${news.details.slice(0, 205)}...</p>
+                            
                             <div class="col-md-8">
                     <div class="d-flex mb-3">
                     <img class="image b-radius" src="${news.author.img}" alt="">
