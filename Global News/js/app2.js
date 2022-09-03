@@ -5,7 +5,6 @@ const loadNewsCatagoriess = () => {
 };
 
 
-// news.details.length > 20 ? news.details.slice(0, 20) + '...' 
 
 const displayCatagoriess = (news) => {
     console.log(news);

@@ -4,9 +4,6 @@ const loadNewsCatagories = () => {
         .then(data => displayCatagories(data.data.news_category))
 };
 
-
-
-
 const displayCatagories = (news) => {
     const catagoriesSection = document.getElementById('catagories-Section');
     news.forEach(news => {
