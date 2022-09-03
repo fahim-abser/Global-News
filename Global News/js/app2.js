@@ -59,24 +59,13 @@ const displayCatagoriess = (news) => {
                         </div>
                     </div>
                        
-                    </div>
                 </div>
-                        </div>
-                    </div>
+            </div>
+             </div>
+        </div>
+</div>
+     `;
 
-                   
-
-                </div>
-                    
-            
-        `;
-        // catagoryDiv = document.createElement('/div');
-        // catagoryDiv.classList.add('col-md-8')
-        // catagoryDiv.classList.add('display')
-        // catagoryDiv.innerHTML = `
-        // <h5> ${news.title} </h5>
-
-        // `;
         catagoriesSection.appendChild(catagoryDiv);
         // console.log(news)
     })
